@@ -12,7 +12,7 @@ function output(message) {
   });
   
   // @ts-ignore
-  navigator.locks.request('window-lock', function() {
+  navigator.locks.request('lock-powersync-26osex953j36.db', function() {
     output('lock acquired from window');
   
     return new Promise(resolve => {
