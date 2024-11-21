@@ -1,5 +1,5 @@
 // @ts-nocheck
-navigator.locks.request('lock-powersync-26osex953j36.db', function() {
+navigator.locks.request('worker-lock-powersync-26osex953j36.db', function() {
   postMessage('lock acquired from worker');
 
   return new Promise(resolve => {
